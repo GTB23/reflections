@@ -1,4 +1,7 @@
-Lesson 1 git :
+Lesson 2 git :
 **************************************************************
 git init - creates git repository with 0 commits
+git status - check state of files / repository
+git add - add files to staging area for commit
 
+working directory -> staging area -> repository
