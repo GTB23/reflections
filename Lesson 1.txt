@@ -1,0 +1,10 @@
+Lesson 1 git :
+**************************************************************
+git CMD - FC file1 file2
+helps show differences and to track down potential problems
+
+git clone 'path'
+git log - show history of commits
+git diff - comit_ID1 comitID2 show changes between commits
+git checkout comit_ID set to comit_ID version
+commit logically like after features, functions, bug fixes

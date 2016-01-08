@@ -1,0 +1,4 @@
+Lesson 1 git :
+**************************************************************
+git init - creates git repository with 0 commits
+
