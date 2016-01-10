@@ -3,5 +3,17 @@ Lesson 2 git :
 git init - creates git repository with 0 commits
 git status - check state of files / repository
 git add - add files to staging area for commit
-
+git branch - shows current branches
+git branch arg1 - creates branch arg1
+git checkout branch_name - sets branch
+git checkout -b new_branch_name, retains commits you create into a new branch
+git log --graph --oneline master branch1 branch2
 working directory -> staging area -> repository
+
+Use the staging area to add multiple files that are part of a single logical change
+This allow for a single logical commit and comments that relate to it.
+
+Master - main branch / production source
+Branch - another branch for new features or bug fix
+merge - combine two branches
+
