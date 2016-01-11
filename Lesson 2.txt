@@ -3,17 +3,28 @@ Lesson 2 git :
 git init - creates git repository with 0 commits
 git status - check state of files / repository
 git add - add files to staging area for commit
-git branch - shows current branches
-git branch arg1 - creates branch arg1
-git checkout branch_name - sets branch
-git checkout -b new_branch_name, retains commits you create into a new branch
-git log --graph --oneline master branch1 branch2
+
+
 working directory -> staging area -> repository
 
 Use the staging area to add multiple files that are part of a single logical change
 This allow for a single logical commit and comments that relate to it.
 
+git branch - shows current branches
+git branch arg1 - creates branch arg1
+git checkout branch_name - sets branch
+git checkout -b new_branch_name, retains commits you create into a new branch
+git log --graph --oneline master branch1 branch2
+
 Master - main branch / production source
 Branch - another branch for new features or bug fix
 merge - combine two branches
+
+git merge master branch_name
+git show - shows changes from a commit and its parent
+git branch -d branch_name - deletes a branch branch_name
+
+automatic merges will occur when no conflicts occur
+If a conflict occurs then you must manually resolve the conflict.
+Once the changes are resolved, add and commit to complete the merge.
 
